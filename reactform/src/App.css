@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: teal;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App>div {
+    width: 450px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+form textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+form button {
+    margin: 10px 0;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px solid;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 20px;
+}
