@@ -16,10 +16,6 @@ body {
     align-items: center;
 }
 
-.App>div {
-    width: 450px;
-}
-
 form {
     display: flex;
     flex-direction: column;
@@ -44,6 +40,64 @@ form textarea {
 form button {
     margin: 10px 0;
     background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px solid;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#updbtn {
+    margin: 10px 0;
+    background-color: greenyellow;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px solid;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.task__update {
+    width: 450px;
+}
+
+.task__update {
+    width: 100%;
+}
+
+.task__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.task__show {
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#delete {
+    margin: 10px 0;
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px solid;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#update {
+    margin: 10px 0;
+    background-color: greenyellow;
     color: #fff;
     padding: 10px;
     border-radius: 5px solid;

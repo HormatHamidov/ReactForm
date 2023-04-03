@@ -1,9 +1,14 @@
 import React from 'react'
+import TaskShow from './TaskShow'
 
-const TaskList = () => {
+const TaskList = ({tasks, onDelete, onUpdate}) => {
   return (
-    <div>
-        
+    <div className='task__list'>
+        {tasks.map((task, index) => {
+          return (
+            <TaskShow key={index} task = {task} onDelete={onDelete} onUpdate={onUpdate}/>
+          )
+        })}
     </div>
   )
 }
